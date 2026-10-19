@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="585" height="210" viewBox="0 0 585 210" font-family="'JetBrains Mono','Fira Code',Consolas,'DejaVu Sans Mono','Courier New',monospace">
+<style>
+.card{opacity:0;animation:ci .7s cubic-bezier(.2,.8,.2,1) 0.75s forwards} @keyframes ci{from{opacity:0;transform:translateY(18px)}to{opacity:1}}
+.pulse{animation:pu 1.4s ease-in-out infinite} @keyframes pu{50%{opacity:.2}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important;opacity:1!important}}
+</style>
+<defs>
+<filter id="g" x="-20%" y="-50%" width="140%" height="200%"><feGaussianBlur stdDeviation="2.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<linearGradient id="shim" x1="0" x2="1"><stop offset="0" stop-color="#00ff41" stop-opacity="0"/><stop offset=".5" stop-color="#00ff41"/><stop offset="1" stop-color="#00ff41" stop-opacity="0"/></linearGradient>
+<linearGradient id="bar" x1="0" x2="1"><stop offset="0" stop-color="#00ff41" stop-opacity="0"/><stop offset="1" stop-color="#00ff41"/></linearGradient>
+</defs>
+<g class="card"><rect x=".5" y=".5" width="584" height="209" rx="12" fill="#010409" stroke="#00ff41" stroke-opacity="0.12" stroke-dasharray="6 6"/><rect width="4" height="170" y="20" rx="2" fill="#00ff41" opacity="0.3"/><svg width="573" x="6" height="3"><rect y="0" width="140" height="2" fill="url(#shim)"><animate attributeName="x" from="-140" to="585" dur="3.5s" begin="2.75s" repeatCount="indefinite"/></rect></svg><text x="30" y="40" font-size="13" fill="#5f7a66" letter-spacing="2">[06]  ~/projects/</text><text x="30" y="74" font-size="24" font-weight="700" fill="#5f7a66" filter="url(#g)">next_project.exe</text><g transform="translate(525,40)"><circle r="13" fill="none" stroke="#0f3d1f" stroke-width="3"/><circle r="13" fill="none" stroke="#00ff41" stroke-width="3" stroke-dasharray="20 62" stroke-linecap="round"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="1s" repeatCount="indefinite"/></circle></g><text x="30" y="108" font-size="15.5" fill="#5f7a66" opacity=".9">Something new is compiling...</text><text x="30" y="132" font-size="15.5" fill="#5f7a66" opacity=".9">stay tuned.</text><rect x="30" y="186" width="525" height="3" rx="1.5" fill="#0f3d1f"/><svg x="30" y="184" width="525" height="7"><rect y="2" width="140" height="3" rx="1.5" fill="url(#bar)" filter="url(#g)"><animate attributeName="x" values="-140;525" dur="3.0s" begin="0.75s" repeatCount="indefinite"/></rect></svg></g>
+</svg>

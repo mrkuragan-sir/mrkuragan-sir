@@ -2,6 +2,7 @@
 <style>
 .ekg{stroke-dasharray:2600;animation:ek 4s linear infinite} @keyframes ek{from{stroke-dashoffset:2600}to{stroke-dashoffset:0}}
 .blink{animation:bl 1s steps(1) infinite} @keyframes bl{50%{opacity:0}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
 </style>
 <defs>
 <linearGradient id="f" x1="0" x2="1"><stop offset="0" stop-color="#00ff41" stop-opacity="0"/><stop offset=".15" stop-color="#00ff41"/><stop offset=".85" stop-color="#00ff41"/><stop offset="1" stop-color="#00ff41" stop-opacity="0"/></linearGradient>

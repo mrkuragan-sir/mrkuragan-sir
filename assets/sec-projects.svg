@@ -4,6 +4,7 @@
 .ln{animation:ln 1.6s cubic-bezier(.2,.8,.2,1) both .3s;transform-origin:left} @keyframes ln{from{transform:scaleX(0)}}
 .dot{animation:dt 3s linear infinite} @keyframes dt{from{transform:translateX(0)}to{transform:translateX(730px)}}
 .in{animation:in .8s ease-out both} @keyframes in{from{opacity:0;transform:translateX(-14px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
 </style>
 <defs><filter id="g" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
 <linearGradient id="l" x1="0" x2="1"><stop offset="0" stop-color="#00ff41" stop-opacity=".8"/><stop offset="1" stop-color="#00ff41" stop-opacity="0"/></linearGradient></defs>

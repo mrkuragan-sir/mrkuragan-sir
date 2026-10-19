@@ -24,7 +24,7 @@
 
 <p align="center">
   <a href="https://github.com/mrkuragan-sir/KuraganKhan-HSS"><img src="./assets/proj-1.svg" width="49%" alt="KuraganKhan-HSS — real-time air defense vision system" /></a>
-  <a href="https://github.com/mrkuragan-sir/CV-Swiss-Knife"><img src="./assets/proj-2.svg" width="49%" alt="CV-Swiss-Knife — offline labeling and augmentation studio" /></a>
+  <a href="https://github.com/mrkuragan-sir/Kuragan-Computer-Vision-Program"><img src="./assets/proj-2.svg" width="49%" alt="Kuragan Computer Vision Program — offline labeling and augmentation studio" /></a>
 </p>
 <p align="center">
   <img src="./assets/proj-3.svg" width="49%" alt="rocket_gnc — guidance and control for a vertical-landing rocket" />
